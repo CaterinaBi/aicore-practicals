@@ -13,3 +13,12 @@ pi = 3.14
 
 cuboid = "cuboid"
 cone = "cone"
+
+lw = l * w 
+lh = l * h 
+hw = h * w
+cuboid_volume = l * w * h
+cuboid_surface_area = 2*lw + 2*lh + 2*hw
+
+cone_volume = pi * r**2 * h_2 / 3
+cone_surface_area = pi * r * (r + math.sqrt(h_2**2 + r**2))
