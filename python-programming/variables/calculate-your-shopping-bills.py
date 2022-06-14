@@ -11,6 +11,7 @@ one_and_half_liter_juice_bottle = 1.89
 thirty_meter_foil_roll = 1.29
 
 # Using arithmetic operations in Python, calculate the price of 1kg sugar
-
+one_kg_sugar = half_kg_sugar * 2
+print(one_kg_sugar)
 
 # What is the price of 20 washing sponges, 3l of juice, and 2 packs of tomatoes?
