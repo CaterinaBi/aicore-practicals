@@ -22,3 +22,7 @@ cuboid_surface_area = 2*lw + 2*lh + 2*hw
 
 cone_volume = pi * r**2 * h_2 / 3
 cone_surface_area = pi * r * (r + math.sqrt(h_2**2 + r**2))
+
+#Write two print statements (one for each shape) in the format: "The volume of {shape} is {x} and the surface area is {y}."
+print(f"The volume of {cuboid} is {cuboid_volume} and the surface area is {cuboid_surface_area}.")
+print(f"The volume of {cone} is {cone_volume} and the surface area is {cone_surface_area}.")
