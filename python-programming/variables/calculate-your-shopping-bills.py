@@ -15,3 +15,5 @@ one_kg_sugar = half_kg_sugar * 2
 print(one_kg_sugar)
 
 # What is the price of 20 washing sponges, 3l of juice, and 2 packs of tomatoes?
+tot_bill = ten_pack_sponges * 2 + one_and_half_liter_juice_bottle * 2 + six_pack_tomatoes * 2
+print(tot_bill)
