@@ -1,2 +1,3 @@
-# aicore-practicals
-A collection of practicals from my training in AI and Data engineering training @ AiCore.
+# AiCore practicals 📚
+
+A collection of practicals done during my training in AI and Data engineering @ [AiCore](https://www.theaicore.com/).
