@@ -1,4 +1,6 @@
 # Create two variables, A and B, whose values are True and False respectively (just to avoid confusion, you can hard code A = True and B = False)
+A = True
+B = False
 
 # Using logical operators, calculate:
 #The output of an OR logic gate (A or B) and store the value in C
