@@ -1,4 +1,7 @@
 # Given 2 parameters, height and weight, calculate the parameter BMI (Google the formula).
+height = 0
+weight = 0
+BMI = height * (weight**2)
 
 # Using the parameter BMI, write a series of if statements that print the following outcomes:
 # below 18.5 --> 'Your BMI is x. You're in the underweight range.'
