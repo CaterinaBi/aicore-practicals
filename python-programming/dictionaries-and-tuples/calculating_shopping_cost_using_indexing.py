@@ -59,3 +59,6 @@ total_price = tomatoes_total_price + sugar_total_price + washing_sponges_total_p
 print("The total price is:", total_price)
 
 # Find the total (inc. VAT) as a variable called order_total (VAT is 20%), remember to round to two decimal points.
+total_including_vat = total_price * 1.2
+total_including_vat = round(total_including_vat, 2)
+print("The total price (including VAT) is:", total_including_vat)
