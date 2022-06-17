@@ -5,7 +5,7 @@
 # 4 rolls of foil
 # 2kg sugar
 
-shop = {'tomatoes': 18, 'packs of washing sponges': 2, 'liters of juice': 4.5, 'rolls of foil': 4, 'kilos of sugar': 2}
+shop = {'tomatoes': 18, 'washing sponges': 2, 'juice': 4.5, 'foil': 4, 'sugar': 2}
 print(shop)
 
 # Add another key to the shop dictionary called prices where the value is a dictionary of the following items and prices.
@@ -32,8 +32,21 @@ print(shop)
 # Find the subtotal (exc. VAT) as a variable called order_subtotal.
 # Follow the next steps to do so:
 # Check how many packs you will need of each item. You can index the pack_sizes key in the shop dictionary to check the size of the package of each item
+print(shop['pack_sizes'])
+
 # Multiply the previous value times the number of packs you are purchasing. Add this value to a new variable.
 # For example for tomatoes, you can calculate the number of packs by dividing 18 by shop['pack_sizes']['tomato']
+tomato_packs = shop['tomatoes'] / shop['pack_sizes']['tomatoes']
+print("You will need", tomato_packs, "tomato packs.")
+sugar_packs = shop['sugar'] / shop['pack_sizes']['sugar']
+print("You will need", sugar_packs, "sugar packs.")
+washing_sponges_packs = shop['washing sponges'] / shop['pack_sizes']['washing sponges']
+print("You will need", washing_sponges_packs, "washing sponges packs.")
+juice_packs = shop['juice'] / shop['pack_sizes']['juice']
+print("You will need", juice_packs, "juice boxes.")
+foil_packs = shop['foil'] / shop['pack_sizes']['foil']
+print("You will need", foil_packs, "foil rolls.")
+
 # Then you can multiply the result (3 in this case) times the price, so it will be 3 * 0.87
 # And store that value in tomatoes_total_price (once you get more confidence coding, you will see that this variable is not necessary)
 # Finally, do the same for all items and add them up
