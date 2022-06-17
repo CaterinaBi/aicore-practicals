@@ -50,4 +50,12 @@ print("You will need", foil_packs, "foil rolls.")
 # Then you can multiply the result (3 in this case) times the price, so it will be 3 * 0.87
 # And store that value in tomatoes_total_price (once you get more confidence coding, you will see that this variable is not necessary)
 # Finally, do the same for all items and add them up
+tomatoes_total_price = tomato_packs * shop['prices']['tomatoes']
+sugar_total_price = sugar_packs * shop['prices']['sugar']
+washing_sponges_total_price = washing_sponges_packs * shop['prices']['washing sponges']
+juice_total_price = juice_packs * shop['prices']['juice']
+foil_total_price = foil_packs * shop['prices']['foil']
+total_price = tomatoes_total_price + sugar_total_price + washing_sponges_total_price + juice_total_price + foil_total_price
+print("The total price is:", total_price)
+
 # Find the total (inc. VAT) as a variable called order_total (VAT is 20%), remember to round to two decimal points.
